@@ -9,7 +9,7 @@ import PublichRoutes from './PublicRoutes';
 
 // ==============================|| ROUTING RENDER ||============================== //
 const router = createBrowserRouter([MainRoutes, AuthRoutes,PublichRoutes],{
-  basename:"/"
+  basename:"/store"
 });
 
 export default router;
