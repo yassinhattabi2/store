@@ -1,0 +1,71 @@
+/* Fullscreen container */
+.homepage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    direction: ltr; /* Default direction. Change to rtl for right-to-left text */
+  }
+  
+  /* Background slider */
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1.5s ease-in-out; /* Smooth transition */
+    z-index: -1;
+  }
+  
+  /* Content overlay */
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white; /* Typography color */
+  }
+  
+  /* Headings */
+  .content h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .content h2 {
+    font-size: 4rem;
+    margin: 1rem 0;
+  }
+  
+  /* Paragraph */
+  .content p {
+    font-size: 1.2rem;
+    max-width: 500px;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  /* Button styling */
+  .shop-now {
+    background-color: black;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: 2px solid black;
+
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .shop-now:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+  }
+  
