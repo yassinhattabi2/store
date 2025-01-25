@@ -1,6 +1,6 @@
 const config = {
  
-  basename: '/',
+  basename: '/store',
   defaultPath: '/login',
   fontFamily: `'Roboto', sans-serif`,
   borderRadius: 12
